@@ -10,4 +10,8 @@ class App extends React.Component {
   }
 }
 
+App.propTypes = {
+  name: React.PropTypes.string
+}
+
 export default App
