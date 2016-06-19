@@ -14,4 +14,8 @@ App.propTypes = {
   name: React.PropTypes.string
 }
 
+App.defaultProps = {
+  name: 'ReactCounter'
+}
+
 export default App
