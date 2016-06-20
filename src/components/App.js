@@ -12,6 +12,7 @@ class App extends React.Component {
       <div>
         <h1>Hello {this.props.name}.</h1>
         <h3>{this.props.children}</h3>
+        <h1>{this.state.counter}</h1>
       </div>
     )
   }
